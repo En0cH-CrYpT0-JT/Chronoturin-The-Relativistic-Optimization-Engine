@@ -29,11 +29,19 @@ We ran a comparative benchmark separating 100,000 particles into two clusters.
 * **Visual:** A blinding white sun.
 * **Meaning:** The engine is calculating interactions for *every single particle*, even the ones on the outer edge that are already sorted.
 * **Efficiency:** 0% (Maximum Waste).
+  
+
+<img width="522" height="817" alt="image" src="https://github.com/user-attachments/assets/b105d0f1-532f-4ff9-ac8a-0b0cc340ec8d" />
+
 
 ### 2. Chronoturin Mode (The New Way)
 * **Visual:** A glowing golden core surrounded by a dark purple shell.
 * **Meaning:** The engine has put the outer shell to "Sleep" (Purple). It is **only** spending energy on the high-conflict center (Gold).
 * **Efficiency:** ~300% Speedup in pure compute scenarios.
+
+
+<img width="495" height="817" alt="image" src="https://github.com/user-attachments/assets/0b618116-2149-46a2-aaa6-5d29624fc0f1" />
+
 
 ---
 
