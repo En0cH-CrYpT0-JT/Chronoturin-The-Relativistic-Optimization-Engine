@@ -97,6 +97,8 @@ We benchmarked the engine on a sparse N-Body simulation (10,000 particles) to me
 | 1.0   | 30002.61 | 1.0× | 6.433895 | 102.7% |
 
 
+<img width="917" height="422" alt="image" src="https://github.com/user-attachments/assets/5e4864f9-4f6c-4740-8bcf-7ba848328fd8" />
+
 
 **Conclusion:**
 The engine allows developers to tune the "Physics Fidelity." A moderate setting (Sensitivity 25.0) nearly doubles performance by sleeping ~43% of the simulation, while an aggressive setting (Sensitivity 50.0) provides a **190x speedup** for background elements, with measurable but stable error.
