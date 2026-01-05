@@ -81,6 +81,8 @@ ffmpeg -framerate 30 -i newton_%03d.png -c:v libx264 -pix_fmt yuv420p newtonian_
 ffmpeg -framerate 30 -i chrono_%03d.png -c:v libx264 -pix_fmt yuv420p chronoturin_optimized.mp4
 ```
 
+
+
 ## 📉 The Pareto Benchmark (Accuracy vs. Speed)
 
 We benchmarked the engine on a sparse N-Body simulation (10,000 particles) to measure the trade-off between **Time Dilation Sensitivity** (how aggressively it sleeps) and **Runtime**.
