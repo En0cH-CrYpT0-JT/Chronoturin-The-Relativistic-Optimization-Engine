@@ -105,7 +105,7 @@ The engine allows developers to tune the "Physics Fidelity." A moderate setting 
 
 **Run the Benchmark:**
 
-Before running make sure to copy shader to replace in ```bin``` and then replace ```shader.wgsl``` in ```src```
+Before running make sure to copy the contents of ```shader to replace``` in ```bin``` and then replace ```shader.wgsl``` in ```src```
 
 
 ```bash
