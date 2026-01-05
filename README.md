@@ -100,6 +100,10 @@ We benchmarked the engine on a sparse N-Body simulation (10,000 particles) to me
 The engine allows developers to tune the "Physics Fidelity." A moderate setting (Sensitivity 25.0) nearly doubles performance by sleeping ~43% of the simulation, while an aggressive setting (Sensitivity 50.0) provides a **190x speedup** for background elements, with measurable but stable error.
 
 **Run the Benchmark:**
+
+Before running make sure to copy shader to replace in ```bin``` and then replace ```shader.wgsl``` in ```src```
+
+
 ```bash
 cargo run --release --bin pareto
 ```
