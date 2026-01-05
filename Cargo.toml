@@ -1,0 +1,11 @@
+[package]
+name = "chronoturin"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.19"           # Graphics Library (Required for Maintain::Wait)
+pollster = "0.3"        # Async Runtime
+bytemuck = { version = "1.14", features = ["derive"] } # Memory Management
+rand = "0.8"            # Math/Chaos Generation
+image = "0.24"          # REQUIRED: To save the visual benchmark frames
